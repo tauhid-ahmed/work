@@ -75,6 +75,15 @@ body {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 .wrapper {
   max-width: calc(71.25rem + var(--layoutGap) * 2);
   width: 100%;
