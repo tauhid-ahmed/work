@@ -1,3 +1,4 @@
+<?php include_once('function.php'); ?>
 <section class="section-contact">
     <div class="wrapper">
         <div class="section-contact__header">
@@ -12,8 +13,8 @@
     </div>
     <div class="section-contact__footer">
         <div class="button-group">
-            <a href="" class="button button--signup-alt">Sign Up</a>
-            <a href="" class="button button--contact-us">Contact Us</a>
+            <a href="<?php echo $join_signup_btn;?>" class="button button--signup-alt">Sign Up</a>
+            <a href="<?php echo $join_contact_btn;?>" class="button button--contact-us">Contact Us</a>
         </div>
     </div>
 </section>

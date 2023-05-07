@@ -1,3 +1,4 @@
+<?php include_once('function.php'); ?>
 <footer id="about-us" class="footer">
     <div class="footer__header">
         <h2 class="footer__title heading heading--h2">
@@ -7,7 +8,7 @@
     <div class="footer__body">
         <div class="wrapper">
             <div class="footer__brands">
-                <a href="http://www.amazon.com" target="_blank">
+                <a href="#" target="_blank">
                     <div class="footer__image-container">
                         <img src="./src/images/amazon.png" alt="Amazon"/>
                     </div>
@@ -48,14 +49,14 @@
                         <p>© 2022 - 2023 CPAHOPE LLC - All rights reserved</p>
                         <div class="footer__icons">
                             <div class="footer__icon responsive-icon">
-                                <a href="http://www.skype.com" target="_blank">
+                                <a href="<?php echo $footer_skype;?>" target="_blank">
                                     <svg>
                                         <use xlink:href="./src/images/icons/icons.svg#skype"/>
                                     </svg>
                                 </a>
                             </div>
                             <div class="footer__icon responsive-icon">
-                                <a href="http://www.twitter.com" target="_blank">
+                                <a href="<?php echo $footer_twitter;?>" target="_blank">
                                     <svg>
                                         <use
                                             xlink:href="./src/images/icons/icons.svg#twitter"
@@ -64,7 +65,7 @@
                                 </a>
                             </div>
                             <div class="footer__icon responsive-icon">
-                                <a href="http://www.facebook.com" target="_blank">
+                                <a href="<?php echo $footer_fb;?>" target="_blank">
                                     <svg>
                                         <use
                                             xlink:href="./src/images/icons/icons.svg#facebook"

@@ -1,3 +1,4 @@
+<?php include_once('function.php'); ?>
 <section id="home" class="section section-hero">
     <div id="playback" class="section-hero__playback">
         <div id="close-player" class="close">
@@ -7,7 +8,7 @@
         </div>
         <div class="video">
             <iframe
-                src="https://www.youtube-nocookie.com/embed/0BIaDVnYp2A"
+                src="<?php echo $main_video;?>"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

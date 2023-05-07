@@ -1,3 +1,4 @@
+<?php include_once('function.php'); ?>
 <section class="section-publishers">
     <div class="wrapper">
         <div class="section-publishers__header">
@@ -18,7 +19,8 @@
         </div>
         <div class="section-publishers__footer">
             <div class="section-publishers__button button button--signup">
-                Sign Up
+                <a href="<?php echo $publishers_signup_btn; ?>"
+                   class="section-advertisers__button button button--contact-us"> Sign Up</a>
             </div>
         </div>
     </div>

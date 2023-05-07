@@ -1,3 +1,4 @@
+<?php include_once('function.php'); ?>
 <section id="advertisers" class="section-advertisers">
     <div class="section-advertisers__header">
         <h2 class="section-advertisers__title heading heading--h2">
@@ -19,7 +20,7 @@
         </div>
         <div class="section-advertisers__footer">
             <a
-                href="#"
+                href="<?php echo $advertisers_contact_btn;?>"
                 class="section-advertisers__button button button--contact-us"
             >Contact Us</a
             >
